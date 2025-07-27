@@ -2,8 +2,7 @@ import MyMap from './components/MyMap.jsx';
 
 function App() {
   return (
-    <div>
-      <h1>My Leaflet Map in React</h1>
+    <div style={{ height: '100vh', width: '100vw', margin: 0, padding: 0 }}>
       <MyMap />
     </div>
   );
